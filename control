@@ -1,10 +1,10 @@
-Package: com.yourname.videostarauto
-Name: VideoStarAuto
-Version: 1.0.0
+Package: com.painuzz.videostar
+Name: Painuzz Tool
+Depends: mobilesubstrate, firmware (>= 14.0)
+Version: 2.0.0
 Architecture: iphoneos-arm
-Description: Auto nhap anh cho Video Star
-Maintainer: you
-Author: you
+Description: Painuzz Video Star Tool - Auto Image & Beat
+Maintainer: Painuzz
+Author: Painuzz
 Section: Tweaks
-Depends: mobilesubstrate
 
