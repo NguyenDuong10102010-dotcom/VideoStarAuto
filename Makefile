@@ -1,10 +1,12 @@
 TARGET := iphone:clang:latest:14.0
-ARCHS = arm64
+ARCHS = arm64 arm64e
+INSTALL_TARGET_PROCESSES = VideoStar
+
 include $(THEOS)/makefiles/common.mk
 
-TWEAK_NAME = VideoStarAuto
-VideoStarAuto_FILES = Tweak.xm
-VideoStarAuto_FRAMEWORKS = UIKit Foundation
-VideoStarAuto_CFLAGS = -fobjc-arc
+TWEAK_NAME = PainuzzTool
+PainuzzTool_FILES = Tweak.xm
+PainuzzTool_CFLAGS = -fobjc-arc
+PainuzzTool_FRAMEWORKS = UIKit QuartzCore AVFoundation Accelerate
 
 include $(THEOS_MAKE_PATH)/tweak.mk
